@@ -19,7 +19,14 @@ Then, following [a tutorial on the vs studio website], I ran the create command:
     vue create blackjack
 
 That made a folder for me. So I guess that's how we'll roll this. Multiple subfoders in here. That's fine,
-we're learning and I'll probably make some new projects at some point.
+we're learning and I'll probably make some new projects at some point. Anyway, moving along, I want to have
+bootstrap around so that I can use it for whatever I'd like and so I don't have to think about styles. So I
+looked up the boostrap vue page and ran another npm command.
+
+    npm install vue bootstrap bootstrap-vue
+
+Then I followed the instructions on the [bootstrap docs page] to add some use commands that probably do... something.
 
 [a tutorial on the vs studio website]:https://code.visualstudio.com/docs/nodejs/vuejs-tutorial
 [the node website]:https://nodejs.org/en/download/
+[bootstrap docs page]:https://bootstrap-vue.org/docs
