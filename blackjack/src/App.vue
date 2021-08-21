@@ -1,17 +1,23 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" class="container">
+    <h1>Black Jack</h1>
+    <b-nav tabs fill>
+      <b-nav-item active>About</b-nav-item>
+      <b-nav-item>New Game</b-nav-item>
+    </b-nav>
+    <b-spinner label="Loading..."></b-spinner>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+  },
+  data () {
+    return {
+    }
   }
 }
 </script>
