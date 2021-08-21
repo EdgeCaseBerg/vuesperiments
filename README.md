@@ -36,7 +36,8 @@ and watched as it created a package-lock.json file at the root again. So. Weird.
 
     npm install vuex
 
-Because I want a store and I want to learn how!
+Because I want a store and I want to learn how! But, first. I got distracted trying to make a bunch of cards appeared with my
+card component.
 
 [a tutorial on the vs studio website]:https://code.visualstudio.com/docs/nodejs/vuejs-tutorial
 [the node website]:https://nodejs.org/en/download/
