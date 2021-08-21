@@ -26,6 +26,17 @@ looked up the boostrap vue page and ran another npm command.
     npm install vue bootstrap bootstrap-vue
 
 Then I followed the instructions on the [bootstrap docs page] to add some use commands that probably do... something.
+After doing that, I played around with the html a little. Removing the default component text and adding in some bootstrap
+components to make my dopamine levels jump up. But, then I made a mistake and deleted some files sitting at the root level
+directory of git repository. Which somehow broke everything in the blackjack folder... what?
+
+So, I ran the vue install cli and create blackjack. Luckily git exists. So, I didn't actually lose anything when it overwrote
+everything despite my selection of the 'merge' option. Figure that out. Anyway, I ran the bootstrap install commands again
+and watched as it created a package-lock.json file at the root again. So. Weird. Putting that aside, next install command!
+
+    npm install vuex
+
+Because I want a store and I want to learn how!
 
 [a tutorial on the vs studio website]:https://code.visualstudio.com/docs/nodejs/vuejs-tutorial
 [the node website]:https://nodejs.org/en/download/
